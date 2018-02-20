@@ -22,7 +22,7 @@
 			Hint: http://next.materializecss.com/color.html
 	-->
 
-    <nav class="blue darken-1" role="navigation">
+    <nav class="teal accent-4" role="navigation">
         <div class="nav-wrapper container">
             <a href="#" class="brand-logo">Happify</a>
             <ul class="right hide-on-med-and-down black-text">
@@ -76,7 +76,7 @@
             <!-- TODO 2: Make the button look smoothy and shiny!
                     Hint: http://next.materializecss.com/buttons.html
             -->            
-            <button><a class="waves-effect waves-light btn" href="#prototype">Try it</a></button>
+            <a class="btn waves-effect waves-light" href="#prototype">Try it</a>
             <br>
             <br>
         </div>
@@ -108,32 +108,32 @@
             <!-- TODO 3: Make the list better and collapsible
                     Hint: http://next.materializecss.com/collapsible.html
             -->
-            <ul>
+            <ul class ="collapsible">
                 <li>
-                    <div>
+                    <div class ="collapsible-header">
                         <i class="material-icons">accessibility</i>Needfinding</div>
-                    <div>
+                    <div class ="collapsible-body">
                         <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class ="collapsible-header">
                         <i class="material-icons">stay_current_portrait</i>Paper prototypes</div>
-                    <div>
+                    <div class ="collapsible-body">
                         <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class ="collapsible-header">
                         <i class="material-icons">border_color</i>Cognitive walkthrough</div>
-                    <div>
+                    <div class ="collapsible-body">
                         <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div class ="collapsible-header">
                         <i class="material-icons">face</i>Personas</div>
-                    <div>
+                    <div class ="collapsible-body">
                         <span>Lorem ipsum dolor sit amet.</span>
                     </div>
                 </li>
@@ -153,6 +153,28 @@
                     Hint: Find a carousel component on your own: http://next.materializecss.com/
             -->
             
+            <div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+                <div class="carousel-item red white-text" href="#one!">
+                  <h2>First Panel</h2>
+                  <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                  <h2>Second Panel</h2>
+                  <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                  <h2>Third Panel</h2>
+                  <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- Team -->
@@ -164,7 +186,7 @@
                     Hint: Find a carousel component on your own: http://next.materializecss.com/
             -->
             <div class="row">
-                <div class="col s3">
+                <div class="grid-example col s12 m6">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/walter.jpg">
@@ -176,7 +198,7 @@
                     </div>
                 </div>
 
-                <div class="col s3">
+                <div class="grid-example col s12 m6">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/skyler.jpg">
@@ -188,7 +210,7 @@
                     </div>
                 </div>
 
-                <div class="col s3">
+                <div class="grid-example col s12 m6">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/jesse.jpg">
@@ -200,7 +222,7 @@
                     </div>
                 </div>
 
-                <div class="col s3">
+                <div class="grid-example col s12 m6">
                     <div class="card">
                         <div class="card-image">
                             <img src="img/saul.jpg">
